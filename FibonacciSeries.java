@@ -29,3 +29,7 @@ b = nextNumber;
 }
 }
 }
+
+Output:
+Enter the value of n:2
+0 1 1
