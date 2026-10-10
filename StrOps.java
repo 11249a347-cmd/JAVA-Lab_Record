@@ -13,7 +13,7 @@ Algorithm:
 9. Convert data types by transforming the integer to a string using String.valueOf().
 10. Stop the program.import java.util.Arrays;
 
-Program:
+Source code:
 public class StrOps {
     public static void main(String[] args) {
         String str1 = "Hello"; 
