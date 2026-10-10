@@ -1,3 +1,17 @@
+Aim:
+To find and print the largest of three integers entered by the user using relational and logical operators in Java.
+
+Algorithm:
+1. Start the program.
+2. Read three integer inputs (x, y, and z) from the user.
+3. Compare the values using conditional statements:
+	• If x > y and x > z, print "First number is largest".
+	• Else if y > x and y > z, print "Second number is largest".
+	• Else if z > x and z > y, print "Third number is largest".
+	• Otherwise, print "The numbers are not distinct".
+4. Stop the program
+  
+Source code:
 import java.util.Scanner;
 public class Largest{
 public static void main(String[]args) {
@@ -17,3 +31,13 @@ else
 System.out.println("The numbers are not distinct");
 }
 }
+
+Output:
+Enter the integers
+15
+42
+23
+Second number is largest
+
+Result:
+This program successfully identifies the maximum value among three integers by utilizing nested conditional statements and logical && (AND) operations to ensure a distinct winner.
