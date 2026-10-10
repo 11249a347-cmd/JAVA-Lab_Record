@@ -1,3 +1,22 @@
+Aim:
+To implement a menu-driven program in Java that continuously performs basic arithmetic operations (addition, subtraction, multiplication, division, and modulus) on two user-input integers using a switch case until the user exits.
+
+Algorithm:
+1. Start the program.
+2. Enter an infinite loop (while (true)) to display the menu repeatedly.
+3. Read two integers (x and y) from the user.
+4. Display a menu containing options for Addition, Subtraction, Multiplication, Division, Modulus, and Exit.
+5. Read the user's choice (n).
+6. Execute the operation matching the choice using a switch statement:
+	• Case 1: Compute and print x + y.
+	• Case 2: Compute and print x - y.
+	• Case 3: Compute and print x * y.
+	• Case 4: Compute and print x / y.
+	• Case 5: Compute and print x % y.
+	• Case 6: Terminate the program using System.exit(0).
+7. Repeat or Stop based on the choice executed.
+
+Source code:
 import java.util.Scanner;
 public class ArithOp {
 public static void main (String[] args) {
@@ -55,6 +74,24 @@ System.exit(0);
 }
 }
 }
+
 }
 
+Output:
+Enter the two numbers to perform the operations.
+Enter the first number: 
+12
+Enter the second number: 
+5
+Choose the operation you perform
+1. ADDITION
+2. SUBTRACTION
+3. MULTIPLICATION
+4. DIVISION
+5. MODULUS
+6. EXIT
+1
+Result : 17
 
+Result:
+This program successfully demonstrates a menu-driven utility for arithmetic processing by leveraging an interactive console loop and conditional switch-case logic.
