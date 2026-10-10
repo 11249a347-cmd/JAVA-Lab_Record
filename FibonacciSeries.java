@@ -1,3 +1,18 @@
+Aim:
+To generate and display the Fibonacci series up to n terms using a loop in Java
+  
+Algorithm:
+1. Start the program.
+2. Read the number of terms n from the user.
+3. Check base cases: If n is 0 or 1, print the respective initial terms.
+4. Generate series for \(n \ge 2\):
+	• Print the first two terms (0 and 1).
+	• Run a loop from 2 to n - 1.
+	• Calculate the next term by adding the previous two terms (a + b).
+	• Update the previous terms for the next iteration.
+5. Stop the program.
+  
+Source code:
 import java.util.Scanner;
 public class FibonacciSeries{
 public static void main(String[] args) {
