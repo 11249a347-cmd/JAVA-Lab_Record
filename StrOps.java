@@ -1,5 +1,19 @@
-import java.util.Arrays;
+Aim:
+    To demonstrate the usage of various built-in Java String methods for manipulation, transformation, searching, comparison, splitting, and type conversion.
+        
+Algorithm:
+1. Start the program.
+2. Initialize sample string variables (str1, str2, sample, searchStr, a, b, csv, and an integer number).
+3. Display basic info using length() and charAt().
+4. Transform strings using toUpperCase(), toLowerCase(), trim(), and replace().
+5. Extract substrings using the single-parameter and dual-parameter substring() methods.
+6. Validate and search content using contains(), startsWith(), endsWith(), indexOf(), and lastIndexOf().
+7. Compare strings using equals(), equalsIgnoreCase(), and compareTo().
+8. Tokenize and combine strings using split() and String.join().
+9. Convert data types by transforming the integer to a string using String.valueOf().
+10. Stop the program.import java.util.Arrays;
 
+Program:
 public class StrOps {
     public static void main(String[] args) {
         String str1 = "Hello"; 
@@ -48,3 +62,6 @@ public class StrOps {
         System.out.println("Converted number to String: " + numStr);
     }
 }
+
+Result:
+This program successfully demonstrates how to use built-in Java String methods to easily manipulate, search, and transform text data
