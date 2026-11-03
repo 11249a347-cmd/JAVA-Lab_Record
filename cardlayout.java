@@ -51,3 +51,6 @@ public void actionPerformed(ActionEvent e)
 buttonCardLayout.next(buttonPanel);
 }
 }
+
+Result:
+Thus, the program was successfully executed to demonstrate how CardLayout manages multiple components as a deck of cards, allowing users to cycle through them one at a time via button clicks.
