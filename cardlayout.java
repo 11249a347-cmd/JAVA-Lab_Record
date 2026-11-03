@@ -1,3 +1,22 @@
+Aim:
+To write and execute a Java applet program that demonstrates the use of a CardLayout manager with interactive buttons.
+
+Algorithm:
+1. Start the program execution.
+2. Import the required AWT, Applet, and Event handling packages.
+3. Declare a class cardlayout that extends Applet and implements ActionListener.
+4. Create instances of Panel, CardLayout, and three Button objects (b1, b2, b3).
+5. Initialize the applet using the init() method.
+6. Set the layout of the created panel to CardLayout.
+7. Instantiate the three buttons with specific text labels.
+8. Register each button with the action listener (this) to capture click events.
+9. Add the buttons to the panel, mapping each to a unique card name string.
+10. Add the panel directly to the main applet window container.
+11. Listen for a click event on any button.
+12. Trigger actionPerformed when a button is clicked, invoking buttonCardLayout.next() to flip to the next card/button.
+13. Stop when the applet window is closed.
+
+Source code:
 import java.io.*; import
 java.awt.*; import
 java.applet.*;
