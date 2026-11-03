@@ -1,3 +1,16 @@
+
+Aim:
+To demonstrate the implementation of GridLayout in a Java Applet by arranging ten buttons into a structured grid of 5 rows and 2 columns with custom margin padding.
+
+ALgorithm:
+1. Start the applet program.
+2. Import the necessary Java packages for UI elements (java.awt) and applet containers (java.applet).
+3. Apply a new GridLayout(5, 2) to the applet window to set up a matrix of 5 horizontal rows and 2 vertical columns.
+4. Instantiate ten individual button components labeled "A" through "J".
+5. Add each button component sequentially to the applet container, filling the grid from left-to-right, top-to-bottom.
+6. Define container margins by overriding the getInsets method to apply a clean 20-pixel border layout padding on all sides.
+
+Source code:
 import java.awt.*;
 import java.io.*;
 import java.applet.Applet.*;
@@ -34,4 +47,8 @@ add(b10);
 public Insets getInsets()
 {
 return new Insets(20,20,20,20);
-}}
+}
+}
+
+Result:
+Thus, the program was successfully executed to demonstrate how GridLayout neatly organizes ten UI components into a uniform row-and-column matrix while utilizing getInsets() to apply consistent border padding around the grid.
